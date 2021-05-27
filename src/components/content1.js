@@ -1,10 +1,9 @@
 import React from 'react'
 import '../styles/content.css';
-import iPad from '../images/iPad-Pro.jpg';
 
 const Content1=(props)=>{
     return(
-        <div className="first_content">
+        <div className={props.cName}>
             <div class="header">
                 <h1>{props.firstText}</h1>
                 <h3>{props.secondText}</h3>
