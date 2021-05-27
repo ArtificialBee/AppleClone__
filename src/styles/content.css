@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+  font-weight: 100;
+}
+
+.first_content {
+  height: 100vh;
+  display: flex;
+  background: url("../images/img1_fc.jpg");
+  background-position: top 88px center;
+  background-repeat: no-repeat;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  padding: 130px 0 0 0;
+  text-align: center;
+}
+
+h1 {
+  color: white;
+  font-size: 3.2rem;
+  font-weight: bold;
+}
+
+h3 {
+  color: white;
+  font-size: 1.7rem;
+  padding: 10px 0 0 0;
+}
+
+.links {
+  padding: 20px 0 0 0;
+  display: flex;
+  flex-direction: row;
+  min-width: 200px;
+  justify-content: space-between;
+}
+
+.links a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: rgb(104, 104, 255);
+}
